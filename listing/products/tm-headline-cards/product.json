@@ -1,0 +1,76 @@
+{
+  "name": "Tm Headline Cards",
+  "pitch": "One card per category with the latest number, its change against plan and a trend line, read at a glance.",
+  "question": "How is each category doing right now, and which way is it heading?",
+  "questions": [
+    "Which product lines are ahead of plan this month?",
+    "Which regions grew, and which slipped, since last period?",
+    "Is a dip this month a blip or part of a longer trend?"
+  ],
+  "useWhen": "Show the latest value and trend for a few categories.",
+  "audience": "Managers and BI leads who need a compact status for up to 24 categories on one sheet.",
+  "purposes": [
+    "kpi",
+    "trend",
+    "comparison"
+  ],
+  "features": [
+    "The latest number, big and clear",
+    "Change against plan or last period",
+    "A trend line on every card",
+    "Fits any object size",
+    "Click to filter, keys to explore"
+  ],
+  "featureStrips": [
+    {
+      "heading": "The latest number, big and clear",
+      "text": "Each card shows the latest value for its category in the app's own number format, so the headline reads exactly like the rest of the sheet.",
+      "image": "images/feature-headline.png",
+      "alt": "Three category cards with the latest net sales in large type, the change against plan and a trend line."
+    },
+    {
+      "heading": "Change against plan or last period",
+      "text": "Add a comparison measure to show the change as a difference or a percent, in green when ahead and red when behind.",
+      "image": "images/feature-delta.png",
+      "alt": "Five category cards with the change against plan in percent, and a dash for Outdoor, whose plan is zero."
+    },
+    {
+      "heading": "A trend line on every card",
+      "text": "A sparkline shows up to the latest 60 points, so a dip this month sits next to the months before it.",
+      "image": "images/feature-trend.png",
+      "alt": "Two wide cards for Accessories and Appliances with a trend line of 18 months of net sales under the headline."
+    },
+    {
+      "heading": "Fits any object size",
+      "text": "On small objects the cards drop the trend line, then the change; long numbers switch to the app abbreviation.",
+      "image": "images/feature-sizes.png",
+      "alt": "The same cards at three sizes: with trend lines, smaller with trend lines, and names and headlines only."
+    },
+    {
+      "heading": "Click to filter, keys to explore",
+      "text": "Click a card name to select its category, or a trend point to select that category and period. Arrow keys move along the trend line.",
+      "image": "images/feature-select.png",
+      "alt": "Five category cards with one point on the Appliances trend line ringed by keyboard focus."
+    }
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Five cards for product categories, each with the latest net sales, the change against plan in red or green, and an 18-month trend line.",
+    "caption": "Net sales by category with the change against plan and the trend of the last 18 months"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-stores.png",
+      "alt": "A grid of 24 cards for invented stores in Norwegian towns, each with net sales, the change against plan and a trend line.",
+      "caption": "24 stores on one object: the most cards a single chart shows"
+    },
+    {
+      "file": "images/gallery-dark.png",
+      "alt": "The five category cards on a dark theme, with the percent change in light red and a light blue trend line.",
+      "caption": "A dark app theme, with the change shown in percent"
+    }
+  ],
+  "shortlinks": [
+    "tmheadlinecards"
+  ]
+}
