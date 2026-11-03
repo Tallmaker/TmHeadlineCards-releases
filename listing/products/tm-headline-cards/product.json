@@ -11,7 +11,7 @@
   "audience": "Managers and BI leads who need a compact status for up to 24 categories on one sheet.",
   "purposes": [
     "kpi",
-    "trend",
+    "temporal",
     "comparison"
   ],
   "features": [
