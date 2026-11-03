@@ -32,7 +32,7 @@
       "heading": "Change against plan or last period",
       "text": "Add a comparison measure to show the change as a difference or a percent, in green when ahead and red when behind.",
       "image": "images/feature-delta.png",
-      "alt": "Five category cards with the change against plan in percent, and a dash for Outdoor, whose plan is zero."
+      "alt": "Five category cards with the change against plan in percent: three ahead in green, two behind in red."
     },
     {
       "heading": "A trend line on every card",
