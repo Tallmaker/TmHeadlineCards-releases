@@ -1,6 +1,6 @@
 {
   "name": "Tm Headline Cards",
-  "pitch": "One card per category with the latest number, its change against plan and a trend line, read at a glance.",
+  "pitch": "One card per category: the latest number, its change against plan with ▲▼, and a trend, read at a glance.",
   "question": "How is each category doing right now, and which way is it heading?",
   "questions": [
     "Which product lines are ahead of plan this month?",
@@ -16,8 +16,9 @@
   ],
   "features": [
     "The latest number, big and clear",
-    "Change against plan or last period",
-    "A trend line on every card",
+    "Change with direction and status",
+    "Line, area or column trends",
+    "Your look from Qlik's Styling panel",
     "Fits any object size",
     "Click to filter, keys to explore"
   ],
@@ -26,48 +27,54 @@
       "heading": "The latest number, big and clear",
       "text": "Each card shows the latest value for its category in the app's own number format, so the headline reads exactly like the rest of the sheet.",
       "image": "images/feature-headline.png",
-      "alt": "Three category cards with the latest net sales in large type, the change against plan and a trend line."
+      "alt": "Three category cards with the latest net sales in large type, the change against plan with a triangle, and a trend line."
     },
     {
-      "heading": "Change against plan or last period",
-      "text": "Add a comparison measure to show the change as a difference or a percent, in green when ahead and red when behind.",
+      "heading": "Change with direction and status",
+      "text": "The change as a difference, percent or both, with ▲▼, a vs Plan label, good direction and a neutral band. Never colour alone.",
       "image": "images/feature-delta.png",
-      "alt": "Five category cards with the change against plan in percent: three ahead in green, two behind in red."
+      "alt": "Five category cards with the change against plan in dollars and percent, a green or red triangle and vs Plan."
     },
     {
-      "heading": "A trend line on every card",
-      "text": "A sparkline shows up to the latest 60 points, so a dip this month sits next to the months before it.",
+      "heading": "Line, area or column trends",
+      "text": "Draw a line, area or columns, mark the latest, highest and lowest points, and add the plan or average as a dashed line.",
       "image": "images/feature-trend.png",
-      "alt": "Two wide cards for Accessories and Appliances with a trend line of 18 months of net sales under the headline."
+      "alt": "Two wide cards with an area trend of 18 months, the highest and lowest points marked and the plan as a dashed line."
+    },
+    {
+      "heading": "Your look from Qlik's Styling panel",
+      "text": "Cards are plain by default. Choose outlined or filled cards, radius, padding, an accent bar, and each part's size and colour.",
+      "image": "images/feature-style.png",
+      "alt": "Five filled cards with rounded corners, centred text, an area trend and a green or red accent bar along the top."
     },
     {
       "heading": "Fits any object size",
-      "text": "On small objects the cards drop the trend line, then the change; long numbers switch to the app abbreviation.",
+      "text": "Small cards drop the change label and indicator, then the trend, then the change. Long numbers abbreviate. Compact suits dense grids.",
       "image": "images/feature-sizes.png",
-      "alt": "The same cards at three sizes: with trend lines, smaller with trend lines, and names and headlines only."
+      "alt": "The same cards at three sizes: with trends, smaller without trends, and names and headlines only."
     },
     {
       "heading": "Click to filter, keys to explore",
-      "text": "Click a card name to select its category, or a trend point to select that category and period. Arrow keys move along the trend line.",
+      "text": "Click a card name to select its category, or a trend point to select that category and period. Arrow keys move along the trend.",
       "image": "images/feature-select.png",
       "alt": "Five category cards with one point on the Appliances trend line ringed by keyboard focus."
     }
   ],
   "hero": {
     "file": "images/hero.png",
-    "alt": "Five cards for product categories, each with the latest net sales, the change against plan in red or green, and an 18-month trend line.",
+    "alt": "Five plain cards for product categories, each with the latest net sales, the change against plan with a green or red triangle and the label vs Plan, and an 18-month trend line.",
     "caption": "Net sales by category with the change against plan and the trend of the last 18 months"
   },
   "screenshots": [
     {
       "file": "images/gallery-stores.png",
-      "alt": "A grid of 24 cards for invented stores in Norwegian towns, each with net sales, the change against plan and a trend line.",
-      "caption": "24 stores on one object: the most cards a single chart shows"
+      "alt": "A compact grid of 24 store cards sorted by change, each with name and change on one line, net sales and a thin trend.",
+      "caption": "24 stores in the compact arrangement, sorted by change against plan"
     },
     {
       "file": "images/gallery-dark.png",
-      "alt": "The five category cards on a dark theme, with the percent change in light red and a light blue trend line.",
-      "caption": "A dark app theme, with the change shown in percent"
+      "alt": "The five category cards outlined on a dark theme, with light green and red changes and an average reference line.",
+      "caption": "A dark app theme with outlined cards and an average reference line"
     }
   ],
   "shortlinks": [
