@@ -1,3 +1,5 @@
-Tm Headline Cards shows a grid of cards inside your Qlik Cloud Analytics app, one card for each category, such as a product line or a region. Each card shows the latest value, its change against a plan or an earlier period, and a small trend line of the recent values.
+Tm Headline Cards shows one card per category, such as a product line, a support team or a web channel: the latest value, its change against a plan, a target or last year, and a small trend.
 
-Use it when a single KPI hides the trend and a line chart shows too much detail. The cards use the app's number formats and theme, fit the object size, and filter the sheet when you click them. The chart reads your data and never changes it. It shows up to 24 categories and the latest 60 points for each.
+You choose how much each card says. Lay the cards out stacked, compact or side by side; show the change as a difference, a percent or both, with lower-is-better for costs and times; draw the trend as a line, area, columns or win and loss; and colour cards by status or by your own rule.
+
+The look comes from Qlik's own Styling panel and app theme. Click to filter, hover for details, or open a detail sheet from a card.

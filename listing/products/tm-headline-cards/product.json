@@ -1,6 +1,6 @@
 {
   "name": "Tm Headline Cards",
-  "pitch": "One card per category: the latest number, its change against plan with ▲▼, and a trend, read at a glance.",
+  "pitch": "One card per category: the latest number, its change with ▲▼ and a trend. Set layout, change, trend and look.",
   "question": "How is each category doing right now, and which way is it heading?",
   "questions": [
     "Which product lines are ahead of plan this month?",
@@ -15,78 +15,117 @@
     "comparison"
   ],
   "features": [
-    "The latest number, big and clear",
-    "Change with direction and status",
-    "A total headline and two comparisons",
+    "Stacked, compact or side by side cards",
     "Line, area, column or win-loss trends",
+    "Change as difference, percent or both",
     "Status colour, or your own colour rule",
-    "Click to filter, hover, link to a sheet"
+    "Styled in Qlik's own Styling panel",
+    "Click, hover and link to a detail sheet"
   ],
   "featureStrips": [
     {
-      "heading": "The latest number, big and clear",
-      "text": "Each card shows the latest value for its category in the app's own number format, so the headline reads exactly like the rest of the sheet.",
-      "image": "images/feature-headline.png",
-      "alt": "Three category cards with the latest net sales in large type, the change against plan with a triangle, and a trend line."
+      "heading": "Three layouts for three kinds of sheet",
+      "text": "Stacked cards for a few big numbers, compact cards for a dense grid, side by side for a row of wide cards next to a table.",
+      "image": "images/layout-arrangements.png",
+      "alt": "Three variants: stacked sales cards, compact web channel cards sorted by change, and side by side support team cards."
     },
     {
-      "heading": "Change with direction and status",
-      "text": "The change as a difference, percent or both, with ▲▼, a vs Plan label, good direction and a neutral band. Never colour alone.",
-      "image": "images/feature-delta.png",
-      "alt": "Five category cards with the change against plan in dollars and percent, a green or red triangle and vs Plan."
+      "heading": "Set it up in the Appearance section",
+      "text": "Every option lives in Qlik's own property panel: layout, labels, headline, both comparisons, trend, link, tooltip and status colour.",
+      "image": "images/panel-appearance.jpg",
+      "alt": "The Qlik property panel open on the Appearance section of Tm Headline Cards, next to the cards on the sheet."
     },
     {
-      "heading": "A total headline and two comparisons",
-      "text": "Give each measure a role: a Headline measure such as a period total replaces the latest value, and a second comparison adds a row.",
+      "heading": "Four ways to draw the trend",
+      "text": "A line with its latest, highest and lowest points; an area or columns from zero; or win and loss marks against plan.",
+      "image": "images/trend-types.png",
+      "alt": "The same two cards drawn as a marked line, an area from zero, columns from zero and win and loss bars."
+    },
+    {
+      "heading": "Reference lines and one shared scale",
+      "text": "Draw last year or the plan as a dashed line, or the average. A shared scale shows which category is really bigger.",
+      "image": "images/trend-reference.png",
+      "alt": "Six web channel cards with last year dashed, next to the same cards on one shared scale with an average line."
+    },
+    {
+      "heading": "Honest about missing and late data",
+      "text": "A month without data is a gap, not a joined line. A team that reports late is muted and named with its last month.",
+      "image": "images/trend-gaps.png",
+      "alt": "Five support team cards: Returns has a gap in its trend, and Enterprise is muted with Sep 2026 under its value."
+    },
+    {
+      "heading": "Show the change your way",
+      "text": "A difference, a percent or both, with a triangle or an arrow and your own label. The sign always shows the direction.",
+      "image": "images/change-modes.png",
+      "alt": "Three columns of the same cards: change as a dollar difference, as a percent, and as both with an arrow and own label."
+    },
+    {
+      "heading": "When lower is better",
+      "text": "For times, costs or errors, a rise is bad. Set lower is better, a neutral band for small moves, and tint the card.",
+      "image": "images/change-lower-better.png",
+      "alt": "Support resolution times against the SLA: teams under it tinted green, over it tinted red, small changes left plain."
+    },
+    {
+      "heading": "A total headline and a second target",
+      "text": "Give a measure the Headline role, such as a year to date total, and add a second comparison, such as a stretch plan.",
       "image": "images/feature-roles.png",
-      "alt": "Four side-by-side cards with a total headline, changes against plan and a stretch plan, and win and loss bars."
+      "alt": "Four side by side cards with a total headline, changes against plan and stretch plan, and win and loss bars."
     },
     {
-      "heading": "Line, area, column or win-loss trends",
-      "text": "Draw a line, or an area or columns from zero, mark the latest, highest and lowest points, and add the plan or average as a dashed line.",
-      "image": "images/feature-trend.png",
-      "alt": "Four cards with an area trend from zero over 18 months, the highest and lowest points marked and the plan dashed."
+      "heading": "Colour cards by your own rule",
+      "text": "A colour expression on the value sets each card's colour, for example purple when a channel grew more than 10%.",
+      "image": "images/colour-rule.png",
+      "alt": "Six outlined web channel cards with top accent bars: two purple from a colour rule, the others green or red."
     },
     {
-      "heading": "Status colour on the card, or your own rule",
-      "text": "Tint the card, the trend, the headline or an accent bar in the status colour, or set the colour with an expression. Text stays readable.",
-      "image": "images/feature-status.png",
-      "alt": "Five cards: two tinted green, one tinted red with a red trend, two plain in the neutral band, all with a plan line."
+      "heading": "Style it in Qlik's Styling panel",
+      "text": "Plain, outlined or filled cards, corner radius, padding, an accent bar, and the font size and colour of each part.",
+      "image": "images/panel-styling.jpg",
+      "alt": "The Qlik Styling panel open on the Chart tab with the card style options, next to outlined cards on the sheet."
     },
     {
-      "heading": "Your look from Qlik's Styling panel",
-      "text": "Cards are plain by default. Choose outlined or filled cards, radius, padding, an accent bar, and each part's size and colour.",
-      "image": "images/feature-style.png",
-      "alt": "Five filled cards with rounded corners, centred text, an area trend and a green or red accent bar along the top."
-    },
-    {
-      "heading": "Fits any object size",
-      "text": "Small cards drop the change label and indicator, then the trend, then the change. Long numbers abbreviate. Compact suits dense grids.",
+      "heading": "Fits a big, medium or tiny object",
+      "text": "Small cards drop the label and indicator, then the trend, then the change. The number stays whole and abbreviates.",
       "image": "images/feature-sizes.png",
-      "alt": "The same cards at three sizes: with trends, smaller without trends, and names and headlines only."
+      "alt": "The same cards at three sizes: with trends, smaller without trends, and names and numbers only."
     },
     {
-      "heading": "Click to filter, hover, link to a sheet",
-      "text": "Click a card name or trend point to select. Hover or focus a point for its month, value and change. A card link can open a detail sheet.",
-      "image": "images/feature-select.png",
-      "alt": "Five category cards with one point on the Appliances trend line ringed by keyboard focus."
+      "heading": "Click, hover and open a detail sheet",
+      "text": "Click a name or point to select. Hover or focus a point for its numbers. A footer link opens a detail sheet.",
+      "image": "images/interaction.png",
+      "alt": "Three sales cards with Open details links, and a tooltip on one trend point showing month, sales, plan and change."
     }
   ],
   "hero": {
     "file": "images/hero.png",
-    "alt": "Five plain cards for product categories, each with the latest net sales, the change against plan with a green or red triangle and the label vs Plan, and an 18-month trend line.",
-    "caption": "Net sales by category with the change against plan and the trend of the last 18 months"
+    "alt": "Five plain cards for product lines, each with net sales, the change against plan with a green or red triangle, and an 18-month trend.",
+    "caption": "Net sales by product line with the change against plan and the trend of the last 18 months"
   },
   "screenshots": [
     {
       "file": "images/gallery-stores.png",
       "alt": "A compact grid of 24 store cards sorted by change, each with name and change on one line, net sales and a thin trend.",
-      "caption": "24 stores in the compact arrangement, sorted by change against plan"
+      "caption": "24 stores in the compact layout, sorted by change against plan"
     },
     {
-      "file": "images/gallery-dark.png",
-      "alt": "The five category cards outlined on a dark theme, with light green and red changes and an average reference line.",
-      "caption": "A dark app theme with outlined cards and an average reference line"
+      "file": "images/feature-status.png",
+      "alt": "Five sales cards: two tinted green and one tinted red with a status coloured trend, and two plain within the neutral band.",
+      "caption": "Status colour as a card tint and on the trend"
+    },
+    {
+      "file": "images/styling-looks.png",
+      "alt": "The same two cards plain, outlined with a status accent bar, and filled with rounded corners and centred text.",
+      "caption": "Plain, outlined and filled card styles"
+    },
+    {
+      "file": "images/theme-dark.png",
+      "alt": "Six outlined web channel cards on a dark app theme with light green and red changes and an average line.",
+      "caption": "A dark app theme"
+    },
+    {
+      "file": "images/theme-custom.png",
+      "alt": "Five support team cards in a custom theme with a serif font, warm paper colour, plum trends and blue and orange changes.",
+      "caption": "A custom theme with a serif font and the blue and orange palette"
     }
   ],
   "shortlinks": [

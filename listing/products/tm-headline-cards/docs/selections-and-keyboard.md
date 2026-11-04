@@ -15,3 +15,10 @@ order: 30
 - Press the arrow keys to move along the points, and **Enter** or **Space** to select the focused point.
 
 Each card name and point has a label for screen readers with the category, period and value.
+
+## Tooltips and sheet links
+
+Hover a trend point, or move to it with the arrow keys, to see its month, value, comparison and change. A shortened headline shows its full number the same way. Turn tooltips off under **Appearance → Tooltip**.
+
+When **Appearance → Link** names a sheet, each card has an **Open sheet ›** link in its footer that opens that sheet. The link is hidden while you edit the sheet.
+
