@@ -126,6 +126,11 @@
       "file": "images/theme-custom.png",
       "alt": "Five support team cards in a custom theme with a serif font, warm paper colour, plum trends and blue and orange changes.",
       "caption": "A custom theme with a serif font and the blue and orange palette"
+    },
+    {
+      "file": "images/demo-overview.png",
+      "alt": "The demo app's nine sheets with what each shows: layout, trend, change and status, styling, sizes, interaction, themes.",
+      "caption": "The free demo app: one sheet per option group"
     }
   ],
   "shortlinks": [
