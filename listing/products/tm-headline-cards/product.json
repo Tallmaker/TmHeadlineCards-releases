@@ -37,9 +37,9 @@
     },
     {
       "heading": "Line, area or column trends",
-      "text": "Draw a line, area or columns, mark the latest, highest and lowest points, and add the plan or average as a dashed line.",
+      "text": "Draw a line, or an area or columns from zero, mark the latest, highest and lowest points, and add the plan or average as a dashed line.",
       "image": "images/feature-trend.png",
-      "alt": "Two wide cards with an area trend of 18 months, the highest and lowest points marked and the plan as a dashed line."
+      "alt": "Four cards with an area trend from zero over 18 months, the highest and lowest points marked and the plan dashed."
     },
     {
       "heading": "Your look from Qlik's Styling panel",
