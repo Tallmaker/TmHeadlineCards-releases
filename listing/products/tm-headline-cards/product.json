@@ -17,10 +17,10 @@
   "features": [
     "The latest number, big and clear",
     "Change with direction and status",
-    "Line, area or column trends",
-    "Your look from Qlik's Styling panel",
-    "Fits any object size",
-    "Click to filter, keys to explore"
+    "A total headline and two comparisons",
+    "Line, area, column or win-loss trends",
+    "Status colour, or your own colour rule",
+    "Click to filter, hover, link to a sheet"
   ],
   "featureStrips": [
     {
@@ -36,10 +36,22 @@
       "alt": "Five category cards with the change against plan in dollars and percent, a green or red triangle and vs Plan."
     },
     {
-      "heading": "Line, area or column trends",
+      "heading": "A total headline and two comparisons",
+      "text": "Give each measure a role: a Headline measure such as a period total replaces the latest value, and a second comparison adds a row.",
+      "image": "images/feature-roles.png",
+      "alt": "Four side-by-side cards with a total headline, changes against plan and a stretch plan, and win and loss bars."
+    },
+    {
+      "heading": "Line, area, column or win-loss trends",
       "text": "Draw a line, or an area or columns from zero, mark the latest, highest and lowest points, and add the plan or average as a dashed line.",
       "image": "images/feature-trend.png",
       "alt": "Four cards with an area trend from zero over 18 months, the highest and lowest points marked and the plan dashed."
+    },
+    {
+      "heading": "Status colour on the card, or your own rule",
+      "text": "Tint the card, the trend, the headline or an accent bar in the status colour, or set the colour with an expression. Text stays readable.",
+      "image": "images/feature-status.png",
+      "alt": "Five cards: two tinted green, one tinted red with a red trend, two plain in the neutral band, all with a plan line."
     },
     {
       "heading": "Your look from Qlik's Styling panel",
@@ -54,8 +66,8 @@
       "alt": "The same cards at three sizes: with trends, smaller without trends, and names and headlines only."
     },
     {
-      "heading": "Click to filter, keys to explore",
-      "text": "Click a card name to select its category, or a trend point to select that category and period. Arrow keys move along the trend.",
+      "heading": "Click to filter, hover, link to a sheet",
+      "text": "Click a card name or trend point to select. Hover or focus a point for its month, value and change. A card link can open a detail sheet.",
       "image": "images/feature-select.png",
       "alt": "Five category cards with one point on the Appliances trend line ringed by keyboard focus."
     }
