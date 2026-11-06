@@ -8,7 +8,7 @@ Add Tm Headline Cards to a sheet and give it data. These steps use the Qlik Clou
 
 1. Open the sheet and choose **Edit sheet**.
 2. Open the Custom objects panel and drag **Tm Headline Cards** onto the sheet.
-3. Add the **Category** dimension. Each value gets one card.
+3. Add the **Category** dimension. Each value gets one card. Skip it to get one card, or one card for each Value measure.
 4. Add the **Time** dimension, such as a month or a date. It orders the trend.
 5. Add the **Value** measure. The card headline is its latest value.
 6. Optionally add the **Comparison** measure, such as a plan or last year's value. The card then shows the change.
